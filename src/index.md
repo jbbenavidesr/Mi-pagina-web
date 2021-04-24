@@ -1,12 +1,14 @@
 ---
 layout: home
-title: A simple starter kit for Eleventy
+title: Juan Bernardo Benavides Rubio
 postsHeading: Latest posts
 archiveButtonText: See all posts
-metaDesc: 'Hylia is a lightweight Eleventy starter kit to help you to create your own blog or personal website.'
+metaDesc: 'Mi pequeño rincón en la web, donde puedo compartir lo que quiera para el mundo'
 socialImage: ''
 ---
 
-Hylia is a lightweight [Eleventy](https://11ty.io) starter kit with [Netlify CMS](https://www.netlifycms.org/) pre-configured, so that you can one-click install a progressive, accessible blog in minutes. It also gives you a well organised starting point to extend yourself. It’s by [Andy Bell](https://twitter.com/hankchizljaw) and [friends](https://github.com/aarongustafson/hylia/graphs/contributors).
+I'm a physicist and web developer who loves to learn new stuff. I like to solve problems and understand how things work.
 
-Get started now by [deploying Hylia to Netlify.](https://app.netlify.com/start/deploy?repository=https://github.com/hankchizljaw/hylia&stack=cms)
+I enjoy developing nice stuff which is nice, fast and accessible to as most people as possible. Over all I like that my work is always as good as possible, so even though sometimes responsabilities or deadlines make it hard, I try understand best practices and be consistent with what I do and why I do it.
+
+This is the first version of my webpage, I'm starting from scratch and hopefully will develop an awesome corner of freedom in the web.
