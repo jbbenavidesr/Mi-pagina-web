@@ -1,7 +1,7 @@
 {
   "items": [
     {
-      "text": "Home",
+      "text": "Inicio",
       "url": "/",
       "external": false
     },
@@ -11,7 +11,7 @@
       "external": true
     },
     {
-      "text": "Contact me",
+      "text": "Contacto",
       "url": "/contact",
       "external": false
     }
