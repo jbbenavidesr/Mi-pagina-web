@@ -1,13 +1,13 @@
 {
   "showThemeCredit": true,
   "name": "Juan Ber",
-  "shortDesc": "This is my first approach to my website, my space in the internet to share whatever I want and show my work, my projects and my thoughts.",
+  "shortDesc": "Esta es la primera versión de mi página. Con ella busco sacar un espacio rapidamente que me permita empezar a publicar.",
   "url": "https://juanber.netlify.app/",
   "authorEmail": "jbbenavidesr@gmail.com",
   "authorHandle": "@jbbenavidesr",
   "authorName": "Juan Bernardo Benavides rubio",
   "enableThirdPartyComments": false,
-  "maxPostsPerPage": 5,
   "paymentPointer": "$ilp.uphold.com/MggmnFEyQqhk",
-  "faviconPath": "/images/favicon.png"
+  "faviconPath": "/images/favicon.png",
+  "maxPostsPerPage": 5
 }
