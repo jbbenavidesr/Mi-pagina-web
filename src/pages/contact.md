@@ -1,9 +1,6 @@
 ---
-title: 'Contact me'
-permalink: '/contact/index.html'
-layout: 'layouts/contact.njk'
+layout: layouts/contact.njk
+title: Contactar a Juan Ber
+permalink: /contact/index.html
 ---
-
-Want to work with me? Or maybe simply have a coffee and chat a while?
-
-Just send me a message and I'll happily get back to you!
+Si quieres trabajar en algo conmigo, o tal vez solo ir a tomar un café, dejame un mensaje.
