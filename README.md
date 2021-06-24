@@ -1,25 +1,22 @@
-# Mi página web
+# Página web de Juan Bernardo Benavides Rubio
 
-Hace mucho tiempo he querido abrir mi página web, mi rincón en internet, mi espacio. 
-Quiero que este sea un espacio en que pueda ser libre, transmitir quien soy y mostrarle al mundo quien soy.
-Será una página en que por un lado tendre mi portafolio y mostraré quien soy. Y por otro, tendré mi Blog, un espacio para expresarme libremente.
+Hace más o menos 1 mes lancé la primera vesrión de mi página web usando el
+starter [Hylia](https://hylia.website/) de [Andy Bell](https://piccalil.li/).
 
-## Primera etapa
+Desde ese momento sabía que esto debía ser temporal y debía iniciar a realmente
+poder convertirlo en mi página con mi diseño y mi código. Sin embargo, debido a
+la gran cantidad de cosas que tengo pendientes, decidí lanzarme al agua con esa
+versión y esperando que el cambio se dé a futuro.
 
-Por ahora simplemente voy a partir desde el starter de 11ty [Hylia](https://github.com/andy-piccalilli/hylia) porque llevo diciendo mucho tiempo que quiero hacer esto y no lo hago, por lo menos esto ya me permite iniciar.
+Me encontré con 2 obstaculos que me llevan a tomar la decisión de iniciar
+rápidamente está transición:
 
-## Blog
+-   En primer lugar, esa página está pensada para ser en inglés y no encontré una
+    buena forma de poder manejar la página multilingüe que me permita implementarla
+    en inglés y español (y luego más).
 
-Este será un espacio libre, en el que espero hablar de muchas cosas incluyendo pero no limitado a:
+-   A pesar de estar muy bien hecha esa página, al no ser mi código, me costaba mucho
+    entrar a hacer modificaciones para personalizarla.
 
-- Aprendizaje
-- Física
-- Matemáticas
-- Programación
-- Religión
-- Libros
-- Idiomas
-- Mi vida
-
-
-Este es un proceso que inicia hoy 24 de Abril de 2021. Esperemos a ver a donde me lleva.
+Esto lleva a que decida iniciar de ceros y replantear mi página. Arrancaré muy
+sencillo y tratando de poder sacarla lo más rápido posible.
