@@ -1,0 +1,19 @@
+<a class="[ skip-link ] [ button ]" href="#main-content">{{ header[locale].skipText }}</a>
+<header role="banner" class="site-head">
+    <div class="wrapper">
+        <div class="site-head__inner">
+            <a href="/{{ locale }}/" class="site-head__brand">
+                {{ site.name }}
+            </a>
+            <nav class="[ nav ] [ site-head__nav ] [ font-sans ]" aria-label="Primary">
+                <ul class="nav__list">
+                    {% for item in header.navigation %}
+                        <li>
+                            <a href="/{{ locale }}{{ item.url }}">{{ item[locale] }}</a>
+                        </li>
+                    {% endfor %}
+                </ul>
+            </nav>
+        </div>
+    </div>
+</header>

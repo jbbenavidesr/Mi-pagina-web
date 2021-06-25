@@ -1,5 +1,8 @@
 ---
-permalink: 'index.html'
+layout: layouts/home.njk
+permalink: '{{ locale }}/index.html'
 ---
 
-Hello world!
+# Esta es la página principal en Español
+
+!Hola Mundo!
