@@ -4,8 +4,12 @@
     "description": "Página personal de Juan Bernardo Benavides Rubio.",
     "main": ".eleventy.js",
     "scripts": {
-        "start": "npx @11ty/eleventy --serve",
-        "css": "node build/sass.js"
+        "watch:sass": "sass  --no-source-map --watch src/assets/sass:dist/assets/css",
+        "watch:eleventy": "npx @11ty/eleventy --serve",
+        "build:sass": "sass  --no-source-map src/assets/sass:dist/assets/css",
+        "build:eleventy": "npx @11ty/eleventy",
+        "start": "npm-run-all build:sass --parallel watch:*",
+        "build": "npm-run-all build:sass build:eleventy"
     },
     "repository": {
         "type": "git",
@@ -19,6 +23,7 @@
     "homepage": "https://github.com/jbbenavidesr/Mi-pagina-web#readme",
     "dependencies": {
         "@11ty/eleventy": "^0.12.1",
+        "npm-run-all": "^4.1.5",
         "sass": "^1.38.2"
     }
 }
