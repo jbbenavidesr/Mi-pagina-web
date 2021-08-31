@@ -8,9 +8,9 @@
     <body>
         <!-- Redirecting to according to browser language -->
         <script>
-            var availableLanguages = [{% for lang in site.langs %}"{{ lang.id }}"{{ '' if loop.last else ',' }}{% endfor %}];
+            let availableLanguages = [{% for lang in site.langs %}"{{ lang.id }}"{{ '' if loop.last else ',' }}{% endfor %}];
             // source from https://gist.github.com/leipert/9586b796281faa5e27ed
-            var locale = [
+            let locale = [
                 ...(window.navigator.languages || []),
                 window.navigator.language,
                 window.navigator.browserLanguage,

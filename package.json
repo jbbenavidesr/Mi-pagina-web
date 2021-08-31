@@ -1,22 +1,24 @@
 {
-  "name": "jbbenavidesr.com",
-  "version": "1.0.0",
-  "description": "Página personal de Juan Bernardo Benavides Rubio.",
-  "main": ".eleventy.js",
-  "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
-  },
-  "repository": {
-    "type": "git",
-    "url": "git+https://github.com/jbbenavidesr/Mi-pagina-web.git"
-  },
-  "author": "Juan Bernardo Benavides R",
-  "license": "MIT",
-  "bugs": {
-    "url": "https://github.com/jbbenavidesr/Mi-pagina-web/issues"
-  },
-  "homepage": "https://github.com/jbbenavidesr/Mi-pagina-web#readme",
-  "dependencies": {
-    "@11ty/eleventy": "^0.12.1"
-  }
+    "name": "jbbenavidesr.com",
+    "version": "1.0.0",
+    "description": "Página personal de Juan Bernardo Benavides Rubio.",
+    "main": ".eleventy.js",
+    "scripts": {
+        "start": "npx @11ty/eleventy --serve",
+        "css": "node build/sass.js"
+    },
+    "repository": {
+        "type": "git",
+        "url": "git+https://github.com/jbbenavidesr/Mi-pagina-web.git"
+    },
+    "author": "Juan Bernardo Benavides R",
+    "license": "MIT",
+    "bugs": {
+        "url": "https://github.com/jbbenavidesr/Mi-pagina-web/issues"
+    },
+    "homepage": "https://github.com/jbbenavidesr/Mi-pagina-web#readme",
+    "dependencies": {
+        "@11ty/eleventy": "^0.12.1",
+        "sass": "^1.38.2"
+    }
 }

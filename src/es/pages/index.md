@@ -5,4 +5,4 @@ permalink: '{{ locale }}/index.html'
 
 # Esta es la página principal en Español
 
-!Hola Mundo!
+¡Hola Mundo!
