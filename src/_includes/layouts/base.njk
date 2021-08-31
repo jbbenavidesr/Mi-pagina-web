@@ -22,8 +22,14 @@
         <meta name="twitter:image" content="{{ metaImage }}">
     </head>
     <body>
-        {% include "partials/site-head.njk" %}
-        {% block content %}{% endblock %}
-        {% include "partials/site-foot.njk" %}
+        <div class="site-wrap">
+            {% include "partials/site-head.njk" %}
+            <main id="main-content">
+                {% block content %}
+                    Here goes the content of the site!
+                {% endblock %}
+            </main>
+            {% include "partials/site-foot.njk" %}
+        </div>
     </body>
 </html>
