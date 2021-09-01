@@ -15,8 +15,6 @@ Por ahora está feito e incompleto, pero espero que pronto vaya mejorando.
 
 Cualquier comentario que me quieran hacer, no duden en escribirme a jbbenavidesr@gmail.com
 
-Finalmente, si prefieren ver mi página en inglés, pueden hacerlo [acá](/en/).
-
 ## Servicios
 
 Mientras acomodo los diferentes servicios que les puedo ofrecer, acá les dejo una

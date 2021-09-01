@@ -1,0 +1,15 @@
+<hr/>
+<footer>
+    <div class="container">
+        <a href="/{{ locale }}/" class="h1 no-style no-margin-bottom">
+            {{ site.name }}
+        </a>
+        <ul class="list-inline">
+            {% for lang in site.langs %}
+                <li>
+                    <a href="/{{ lang.id }}/">{{ lang.name }}</a>
+                </li>
+            {% endfor %}
+        </ul>
+    </div>
+</footer>

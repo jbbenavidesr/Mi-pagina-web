@@ -1,12 +1,12 @@
 <a class="[ visually-hidden focusable ] [ btn ]" href="#main-content">{{ header[locale].skipText }}</a>
-<header role="banner" class="padding-top margin-bottom-large">
+<header role="banner" class="padding-top ">
     <div class="container">
         <div class="">
-            <a href="/{{ locale }}/" class="h1 no-style">
+            <a href="/{{ locale }}/" class="h1 no-style no-margin-bottom">
                 {{ site.name }}
             </a>
-            <nav class="padding-top" aria-label="Primary">
-                <ul class="list-inline">
+            <nav class="" aria-label="Primary">
+                <ul class="list-inline no-margin-bottom">
                     {% for item in header.navigation %}
                         <li>
                             <a href="/{{ locale }}{{ item.url }}">{{ item[locale] }}</a>
@@ -17,3 +17,4 @@
         </div>
     </div>
 </header>
+<hr/>

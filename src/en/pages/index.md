@@ -15,8 +15,6 @@ For the moment, it is a little ugly and incomplete, but will hopefully become be
 
 If you have any comments, feel free to contact me at jbbenavidesr@gmail.com
 
-Finally, if you'd rather see my content in spanish, you can do it [here](/es/).
-
 ## Services
 
 While I get to organize the page and my services, here are some:
