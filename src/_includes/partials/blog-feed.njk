@@ -1,14 +1,14 @@
 {% set posts = collections["posts_" + locale] %}
 {% for post in posts | reverse %}
     {% if loop.first %}
-        <ul>
+        <ul class="list-unstyled">
         {% endif %}
         <li>
             <article>
-                <p>
+                <p class="no-margin-bottom text-small text-muted">
                     <time datetime="{{ post.date | date({weekday:undefined,year:undefined,month:undefined,day:undefined}) }}">{{ post.date | date({locale:locale}) }}</time>
                 </p>
-                <h3>
+                <h3 class="no-padding-top">
                     <a href="{{ post.url }}">{{ post.data.title }}</a>
                 </h3>
             </article>

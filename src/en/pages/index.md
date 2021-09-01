@@ -1,6 +1,8 @@
 ---
 layout: layouts/home.njk
 permalink: '/{{ locale }}/index.html'
+blogFeed:
+    heading: Blog
 ---
 
 # Hello, I'm Juan Ber.

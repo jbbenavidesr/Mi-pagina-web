@@ -5,6 +5,11 @@
 {% block content %}
     <div class="container">
         {{ content | safe }}
-        {% include "partials/blog-feed.njk" %}
+        <section>
+            <header>
+                <h2>{{ blogFeed.heading }}</h2>
+            </header>
+            {% include "partials/blog-feed.njk" %}
+        </section>
     </div>
 {% endblock %}
