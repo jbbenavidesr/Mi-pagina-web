@@ -6,11 +6,18 @@
     <div class="container">
         {{ content | safe }}
         <hr/>
-        <section>
+        <section id="blog-feed" tabindex="-1">
             <header>
                 <h2>{{ blogFeed.heading }}</h2>
             </header>
             {% include "partials/blog-feed.njk" %}
+        </section>
+        <hr/>
+        <section>
+            <header id="project-feed" tabindex="-1">
+                <h2>{{ projectFeed.heading }}</h2>
+            </header>
+            {% include "partials/project-feed.njk" %}
         </section>
     </div>
 {% endblock %}

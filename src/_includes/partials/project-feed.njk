@@ -1,0 +1,16 @@
+{% for post in collections.projects %}
+    {% if loop.first %}
+        <ul class="list-unstyled">
+        {% endif %}
+        <li>
+            <article>
+                <h3 class="no-padding-top">
+                    <a href="{{ post.url }}">{{ post.data.title }}</a>
+                </h3>
+                <p>{{ post.data[locale].description }}</p>
+            </article>
+        </li>
+        {% if loop.last %}
+        </ul>
+    {% endif %}
+{% endfor %}

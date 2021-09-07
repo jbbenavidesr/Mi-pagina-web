@@ -16,6 +16,12 @@ module.exports = function (config) {
         return collection.getFilteredByGlob('./src/es/posts/*.md');
     });
 
+    config.addCollection('projects', function (collection) {
+        return collection.getFilteredByGlob('./src/projects/*.md').sort(function (a, b) {
+            return a.data.order - b.data.order;
+        });
+    });
+
     return {
         markdownTemplateEngine: 'njk',
         dataTemplateEngine: 'njk',
